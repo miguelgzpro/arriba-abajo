@@ -1,0 +1,21 @@
+var arriba=function(x){ 
+    if(x>200){
+        console.log(x);
+              return arriba(x+1)
+         }else{ 
+              console.log(x)
+           
+    }
+ }
+
+
+
+var abajo=function(x){ 
+    if(x<200){
+        console.log(x);
+              return abajo(x-1)
+         }else{ 
+              console.log(x)
+           
+    }
+ }
